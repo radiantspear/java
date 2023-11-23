@@ -8,11 +8,11 @@ public class POSGuatno {
     public POSGuatno() {
         scanner = new Scanner(System.in);
         products = new ProductInformationAmor[5];
-        products[0] = new ProductInformationAmor("A001", "Mouse", 100.00);
-        products[1] = new ProductInformationAmor("A002", "Monitor", 2500.00);
-        products[2] = new ProductInformationAmor("A003", "Keyboard", 200.00);
-        products[3] = new ProductInformationAmor("A004", "Flash disk", 300.00);
-        products[4] = new ProductInformationAmor("A005", "Hard disk", 1500.00);
+        products[0] = new ProductInformationSecsion("A001", "Mouse", 100.00);
+        products[1] = new ProductInformationSecsion("A002", "Monitor", 2500.00);
+        products[2] = new ProductInformationSecsion("A003", "Keyboard", 200.00);
+        products[3] = new ProductInformationSecsion("A004", "Flash disk", 300.00);
+        products[4] = new ProductInformationSecsion("A005", "Hard disk", 1500.00);
     }
 
     public void purchaseItem() {

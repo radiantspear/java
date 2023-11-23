@@ -83,7 +83,7 @@ public class POSGuatno {
     }
 
     public static void main(String[] args) {
-        POSpajarillo pos = new POSpajarillo();
+        POSGuatno pos = new POSGuatno();
         pos.purchaseItem();
     }
 }
